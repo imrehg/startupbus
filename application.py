@@ -35,7 +35,7 @@ if __name__ == "__main__":
             print("Yeah, I'm on the %s StartupBus!" %(bus.origin))
             break
 
-    if  me.happy:
+    if me.happy is True:
         me.StartHackingLikeCrazy()
     else:
         me.StartHackingLikeCrazyToGetOnBusNextTime()
