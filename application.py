@@ -10,7 +10,6 @@ class Greg:
     def __init__(self):
         """ Get that party started """
         self.enthusiasm = True
-        self.crazy = True
         self.happy = None
         self.role = sb.DEV_ROLE
 
