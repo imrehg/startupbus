@@ -8,7 +8,7 @@ PR_ROLE = 2
 OTHER_ROLE = 3
 
 class Bus:
-    """ On if the many StartubBusses """
+    """ On if the many StartubBuses """
 
     def __init__(self, origin):
         self.origin = origin
